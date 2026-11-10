@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Apply to Elimu Bora Technical Vocational College.">
+    <title>Apply | Elimu Bora Technical Vocational College</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="INDEX.HTML" aria-label="Elimu Bora College home"><span class="brand-mark" aria-hidden="true">EB</span><span class="brand-name">ELIMU BORA<span>TECHNICAL VOCATIONAL COLLEGE</span></span></a>
+        <nav class="main-nav" aria-label="Main navigation">
+            <a href="departments.html">Departments</a><a href="courses.html">Courses offered</a><a href="accommodation.html">Accommodation</a><a href="intakes.html">Intakes</a>
+        </nav>
+        <a class="header-cta" href="apply.html" aria-current="page">Apply now <span aria-hidden="true">↗</span></a>
+    </header>
+    <main>
+        <section class="application-section application-page">
+            <div class="section-intro">
+                <p class="eyebrow eyebrow-dark">YOUR NEXT CHAPTER STARTS HERE</p>
+                <h1>Apply to<br><em>Elimu Bora.</em></h1>
+                <p>Tell us a little about yourself and the course you have in mind. Our admissions team will be in touch.</p>
+                <div class="application-aside"><span>01</span><p>Applications are open for upcoming intakes.</p></div>
+            </div>
+            <form class="registration-form" action="http://localhost/Institution%20website/register.php" method="post">
+                <div class="form-heading">
+                    <div><p class="eyebrow eyebrow-dark">STUDENT REGISTRATION</p><h2>Applicant details</h2></div>
+                    <span class="required-note">* Required</span>
+                </div>
+                <div class="form-grid">
+                    <label>Full name <span>*</span><input type="text" name="full_name" autocomplete="name" placeholder="As shown on your ID" maxlength="120" required></label>
+                    <label>Email address <span>*</span><input type="email" name="email" autocomplete="email" placeholder="you@example.com" maxlength="190" required></label>
+                    <label>Phone number <span>*</span><input type="tel" name="phone" autocomplete="tel" placeholder="e.g. 0712 345 678" maxlength="30" required></label>
+                    <label>Department <span>*</span>
+                        <select name="department" required>
+                            <option value="" disabled selected>Select department</option>
+                            <option>Engineering &amp; Technology</option>
+                            <option>Business &amp; Entrepreneurship</option>
+                            <option>Hospitality &amp; Tourism</option>
+                            <option>Building &amp; Construction</option>
+                        </select>
+                    </label>
+                    <label class="field-wide">Course of interest <span>*</span><input type="text" name="course" placeholder="e.g. Electrical Installation" maxlength="150" required></label>
+                    <label>Preferred intake <span>*</span>
+                        <select name="intake" required>
+                            <option value="" disabled selected>Select intake</option>
+                            <option>January</option>
+                            <option>May</option>
+                            <option>September</option>
+                        </select>
+                    </label>
+                    <label>Accommodation <span>*</span>
+                        <select name="accommodation" required>
+                            <option value="" disabled selected>Choose an option</option>
+                            <option>On-campus accommodation</option>
+                            <option>Off-campus accommodation</option>
+                            <option>Not required</option>
+                        </select>
+                    </label>
+                </div>
+                <label class="consent"><input type="checkbox" name="contact_consent" value="1" required><span>I agree that Elimu Bora College may contact me about my application.</span></label>
+                <button class="button button-submit" type="submit">Submit application <span aria-hidden="true">→</span></button>
+                <p class="privacy-note">Your details will only be used to process your application.</p>
+            </form>
+        </section>
+    </main>
+    <footer class="site-footer"><div class="footer-main"><a class="brand footer-brand" href="INDEX.HTML"><span class="brand-mark" aria-hidden="true">EB</span><span class="brand-name">ELIMU BORA<span>TECHNICAL VOCATIONAL COLLEGE</span></span></a><p class="footer-motto">Practical skills.<br>Brighter possibilities.</p><div class="footer-contact"><p class="eyebrow">GET IN TOUCH</p><a href="tel:+254700000000">+254 700 000 000</a><a href="mailto:admissions@elimubora.ac.ke">admissions@elimubora.ac.ke</a><p>College Road, Kenya</p></div></div><div class="footer-bottom"><span>© 2026 Elimu Bora Technical Vocational College</span><a href="INDEX.HTML">Back to home ↑</a></div></footer>
+</body>
+</html>
